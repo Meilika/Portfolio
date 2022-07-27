@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #5C1E21;
+}
+
+.navLogo {
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+.navLogo h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbarMenu ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbarMenu li {
+    flex-direction: column;
+    padding: 5px 20px;
+}
