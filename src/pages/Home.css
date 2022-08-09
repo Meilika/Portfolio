@@ -12,6 +12,13 @@
     padding: 50px 0;
     color: #5C1E21;
 }
+.heroContent h1 {
+    font-family: 'Satisfy', cursive;
+    padding: 0 50px;
+}
+.heroContent p {
+    font-family: cursive;
+}
 
 .socialMedia ul {
     display: flex;
@@ -20,6 +27,26 @@
 .socialMedia li {
     flex-direction: column;
     padding: 5px;
+}
+.socialMedia img:hover {
+    box-shadow: 0 4px 10px 0 #5C1E21;
+    border-radius: 100%;
+}
+
+button {
+    background-color: #5C1E21;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f5deb3;
+    margin: 0 10px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    box-shadow: 0 4px 8px 0 #5C1E21;
 }
 
 .heroPic {

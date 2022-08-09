@@ -16,6 +16,12 @@ export default function Home() {
                             <li><a href='https://www.instagram.com/meilikadp/?hl=en' target="blank"><img src="https://img.icons8.com/ios-glyphs/40/5c1e21/instagram-new.png" alt='instagram-icon'/></a></li>
                         </ul>
                     </div>
+                    <button>
+                        <a href='https://drive.google.com/file/d/1A4TBqPJ_6Wws-Jv8XfZgctw_P1q7QXME/view?usp=sharing' target="blank"><img src="https://img.icons8.com/material-outlined/20/f5deb3/resume.png" alt='resume-icon'/> My Resume</a>
+                    </button>
+                    <button>
+                        <img src="https://img.icons8.com/material-outlined/20/f5deb3/star--v2.png" alt='star-icon'/> My Projects
+                    </button>
                 </div>
                 <div className='heroPic'>
                     <img src={MeiPicture} alt="/" />
