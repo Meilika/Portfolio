@@ -20,10 +20,17 @@ nav {
 .navbarMenu ul {
     display: flex;
     list-style: none;
-
 }
 
 .navbarMenu li {
     flex-direction: column;
     padding: 5px 20px;
+}
+.navbarMenu a {
+    font-family: cursive;
+    color: #5C1E21;
+    text-decoration: none;
+}
+.navbarMenu a:hover {
+    font-weight: bold;
 }

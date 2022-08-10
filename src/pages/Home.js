@@ -3,7 +3,7 @@ import MeiPicture from '../assets/meilika.png'
 
 export default function Home() {
     return (
-        <div className='Home'>
+        <div id='home'>
             <div className='hero'>
                 <div className='heroContent'>
                     <h1> Hi, iam Meilika Dwi Putri</h1>
@@ -20,7 +20,7 @@ export default function Home() {
                         <a href='https://drive.google.com/file/d/1A4TBqPJ_6Wws-Jv8XfZgctw_P1q7QXME/view?usp=sharing' target="blank"><img src="https://img.icons8.com/material-outlined/20/f5deb3/resume.png" alt='resume-icon'/> My Resume</a>
                     </button>
                     <button>
-                        <img src="https://img.icons8.com/material-outlined/20/f5deb3/star--v2.png" alt='star-icon'/> My Projects
+                        <a href='#myProject'><img src="https://img.icons8.com/material-outlined/20/f5deb3/star--v2.png" alt='star-icon'/> My Projects</a>
                     </button>
                 </div>
                 <div className='heroPic'>
