@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+#myProject {
+    text-align: center;
+    background-color: rgba(92, 30, 33, 0.8);
+}
+#myProject h1 {
+    margin: 0;
+    padding: 40px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-box {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 #5C1E21;
+    max-width: 300px;
+}
+
+.project-box h2 {
+    margin: 5px;
+}
+.project-box h6 {
+    margin: 5px;
+    color: #5C1E21;
+    font-weight: normal;
+}
+
+.project-box p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.project-box img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.project-box:hover {
+    box-shadow: 10px 10px 10px 10px #5C1E21;
+}
+
+.source ul, .tech ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Satisfy', cursive;
+    color: #5C1E21;
+    margin: 0;
+}
+.source ul {
+    justify-content: end;
+}
+.source li, .tech li {
+    flex-direction: column;
+    padding: 0 5px;
+}
+.source img:hover {
+    box-shadow: 0 4px 10px 0 #5C1E21;
+    border-radius: 100%;
+}
