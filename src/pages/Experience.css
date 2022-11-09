@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+#myExperience {
+    text-align: center;
+    background-color: rgba(92, 30, 33, 0.8);
+    padding-bottom: 20px;
+}
+#myExperience h1 {
+    margin: 0;
+    padding: 40px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.experience {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.experience h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #5C1E21;
+}
+
+.exp-list {
+    border: 1px solid #5C1E21;
+    border-radius: 10px;
+    display : flex;
+    margin: 10px 150px;
+    background-color: white;
+}
+
+.exp-list img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.experience-detail {
+    margin: 0 10px;
+    text-align: justify;
+}
+
+.experience-detail a {
+    text-decoration: none;
+    color: black;
+}
+.experience-detail a:hover {
+    text-decoration: underline;
+}
+
+.experience-detail p, .experience-detail h3 {
+    margin: 3px;
+}
+
+.exp-date {
+    color: gray;
+}
