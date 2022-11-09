@@ -44,7 +44,7 @@ export default function MyProject() {
                 <div className='source'>
                     <ul>
                         <li><a href='https://github.com/Meilika/se-fe7-kelompok3' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/github.png" alt='github-icon'/></a></li>
-                        <li><a href='meilika.github.io/se-fe7-kelompok3/' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></a></li>
+                        <li><a href='https://meilika.github.io/se-fe7-kelompok3/' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></a></li>
                     </ul>
                 </div>
             </div>
