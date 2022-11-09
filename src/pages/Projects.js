@@ -99,7 +99,7 @@ export default function MyProject() {
                 <div className='source'>
                     <ul>
                         <li><a href='https://github.com/Meilika/MealFinderWeb' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/github.png" alt='github-icon'/></a></li>
-                        <li><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></li>
+                        <li><a href='https://mealfinder-meilika.netlify.app/' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></a></li>
                     </ul>
                 </div>
             </div>
@@ -116,7 +116,7 @@ export default function MyProject() {
                 <div className='source'>
                     <ul>
                         <li><a href='https://github.com/Meilika/Bookshelf-Apps' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/github.png" alt='github-icon'/></a></li>
-                        <li><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></li>
+                        <li><a href='https://bookshelf-meilika.netlify.app/' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></a></li>
                     </ul>
                 </div>
             </div>
