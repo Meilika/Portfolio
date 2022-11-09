@@ -1,5 +1,6 @@
 import './Home.css';
 import MeiPicture from '../assets/meilika.png'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -20,7 +21,9 @@ export default function Home() {
                         <a href='https://drive.google.com/file/d/1A4TBqPJ_6Wws-Jv8XfZgctw_P1q7QXME/view?usp=sharing' target="blank"><img src="https://img.icons8.com/material-outlined/20/f5deb3/resume.png" alt='resume-icon'/> My Resume</a>
                     </button>
                     <button>
-                        <a href='#myProject'><img src="https://img.icons8.com/material-outlined/20/f5deb3/star--v2.png" alt='star-icon'/> My Projects</a>
+                        <Link to="/myproject">
+                        <img src="https://img.icons8.com/material-outlined/20/f5deb3/star--v2.png" alt='star-icon'/> My Project
+                        </Link>
                     </button>
                 </div>
                 <div className='heroPic'>

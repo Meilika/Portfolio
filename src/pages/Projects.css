@@ -3,6 +3,7 @@
 #myProject {
     text-align: center;
     background-color: rgba(92, 30, 33, 0.8);
+    padding-bottom: 20px;
 }
 #myProject h1 {
     margin: 0;
@@ -48,6 +49,8 @@
 
 .project-box:hover {
     box-shadow: 10px 10px 10px 10px #5C1E21;
+    transition: all .45s;
+    margin: 0 10px;
 }
 
 .source ul, .tech ul {
@@ -67,4 +70,5 @@
 .source img:hover {
     box-shadow: 0 4px 10px 0 #5C1E21;
     border-radius: 100%;
+    transition: all .45s;
 }

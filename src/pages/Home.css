@@ -1,11 +1,13 @@
 #home {
-    background-color: rgba(92, 30, 33, 0.5);
+    background-color: rgba(92, 30, 33, 0.1);
     padding: 0 50px;
 }
 
 .hero {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    animation-duration: 1s;
+    animation-name: slidein;
 }
 
 .heroContent {
@@ -15,6 +17,9 @@
 .heroContent h1 {
     font-family: 'Satisfy', cursive;
     padding: 0 50px;
+    font-weight: bold;
+    font-size: 40px;
+    animation: float 6s ease-in-out infinite;
 }
 .heroContent p {
     font-family: cursive;
@@ -31,6 +36,8 @@
 .socialMedia img:hover {
     box-shadow: 0 4px 10px 0 #5C1E21;
     border-radius: 100%;
+    transition: all .45s;
+    padding: 3px;
 }
 
 button {
@@ -47,6 +54,8 @@ button a {
 }
 button:hover {
     box-shadow: 0 4px 8px 0 #5C1E21;
+    margin: 0 3px;
+    transition: all .45s;
 }
 
 .heroPic {
@@ -55,4 +64,26 @@ button:hover {
 }
 .heroPic img {
     max-width: 500px;
+}
+
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-right: 0%;
+    }
+}
+
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
 }

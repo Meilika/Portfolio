@@ -6,6 +6,7 @@ nav {
     padding: 0 50px;
     color: #5C1E21;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #eaeaea;
 }
 
 .navLogo {
@@ -29,8 +30,9 @@ nav {
 .navbarMenu a {
     font-family: cursive;
     color: #5C1E21;
+    font-weight: bold;
     text-decoration: none;
 }
 .navbarMenu a:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
