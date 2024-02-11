@@ -30,7 +30,7 @@
     border: 1px solid #5C1E21;
     border-radius: 10px;
     display : flex;
-    margin: 10px 150px;
+    margin: 10px 100px;
     background-color: white;
 }
 
@@ -58,4 +58,46 @@
 
 .exp-date {
     color: gray;
+}
+
+@media screen and (max-width: 899px) {
+    .exp-list {
+        flex-direction: column;
+    }
+    .exp-list img {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .exp-list {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .exp-list img {
+        margin: auto;
+    }
+
+    #myExperience h1 {
+        font-size: 40px;
+    }
+    
+    .experience h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    #myExperience h1 {
+        font-size: 30px;
+    }
+    .experience h2 {
+        font-size: 20px;
+    }
+    .experience-detail h3 {
+        font-size: 12px;
+    }
+    .experience-detail p {
+        font-size: 10px;
+    }
 }
