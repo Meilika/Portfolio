@@ -72,3 +72,13 @@
     border-radius: 100%;
     transition: all .45s;
 }
+
+.tech img {
+    width: 50px;
+}
+
+@media screen and (max-width: 399px) {
+    #myProject h1 {
+        font-size: 30px;
+    }
+}

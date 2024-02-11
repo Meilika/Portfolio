@@ -5,12 +5,31 @@ import AyoJogja from "../assets/projects/AyoJogja.jpg"
 import HungersBite from "../assets/projects/HungersBite.jpg"
 import MealFinder from "../assets/projects/MealFinder.jpg"
 import BookshelfApps from "../assets/projects/BookshelfApps.jpg"
+import VrBdl from "../assets/projects/virtualtour-bandarlampung.jpg"
 
 export default function MyProject() {
   return (
     <div id="myProject">
         <h1>M y P r o j e c t</h1>
         <div className="projects">
+            <div className="project-box">
+                <img src={VrBdl} alt="VirtualTour-BandarLampung" />
+                <h2>VirtualTour-BandarLampung</h2>
+                <h6>Final Project for Graduation from University of Lampung (Aug 2023)</h6>
+                <p>This website will provide information about tourist attractions which includes brief descriptions of tourism and tourist locations, and there will be 360° images and virtual tours.</p>
+                <div className='tech'>
+                    <ul> Build with :
+                        <li><img src="https://img.icons8.com/color/40/000000/react-native.png" alt="react-icon"/></li>
+                        <li><img src="https://3sixty.webappdev.my.id/wp-content/uploads/2021/01/cropped-3Sixty-Logo.png" alt="3Sixty-icon"/></li>
+                    </ul>
+                </div>
+                <div className='source'>
+                    <ul>
+                        <li><a href='https://github.com/Meilika/VirtualTour-BandarLampung' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/github.png" alt='github-icon'/></a></li>
+                        <li><a href='https://virtualtour-bandarlampung.netlify.app/' target="blank"><img src="https://img.icons8.com/ios-glyphs/30/5c1e21/verified-account--v1.png" alt="icon"/></a></li>
+                    </ul>
+                </div>
+            </div>
             <div className="project-box">
                 <img src={HiCoder} alt="Hicoder" />
                 <h2>HiCoder</h2>

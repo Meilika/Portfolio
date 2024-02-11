@@ -36,6 +36,7 @@ nav {
 .navbarMenu a:hover {
     text-decoration: underline;
     background-color: white;
+    border-radius: 10px;
 }
 
 .hidden {
