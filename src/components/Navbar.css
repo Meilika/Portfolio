@@ -3,7 +3,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 10px;
     color: #5C1E21;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
     background-color: #eaeaea;
@@ -35,4 +35,45 @@ nav {
 }
 .navbarMenu a:hover {
     text-decoration: underline;
+    background-color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 599px) {
+    .burger-button {
+        visibility: hidden;
+    }
+    .hidden {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .burger-button {
+        background-color: transparent;
+        border: none;
+    }
+    .burger-button img{
+        width: 16px;
+        height: 16px;
+        background-color: #5C1E21;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .navbarMenu ul {
+        flex-direction: column;
+    }
+    .navbarMenu {
+        position: absolute;
+        right: 15px;
+        top: 30px;
+    }
+    .navbarMenu a{
+        background-color: #eaeaea;
+        border: 1px solid #5C1E21;
+        border-radius: 5px;
+    }
 }

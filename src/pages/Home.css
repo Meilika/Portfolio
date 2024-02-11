@@ -4,14 +4,13 @@
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: flex;
     animation-duration: 1s;
     animation-name: slidein;
 }
 
 .heroContent {
-    padding: 50px 0;
+    padding: 50px 20px;
     color: #5C1E21;
 }
 .heroContent h1 {
@@ -23,6 +22,7 @@
 }
 .heroContent p {
     font-family: cursive;
+    text-align: justify;
 }
 
 .socialMedia ul {
@@ -40,7 +40,7 @@
     padding: 3px;
 }
 
-button {
+.heroContent button {
     background-color: #5C1E21;
     border: none;
     padding: 10px;
@@ -48,11 +48,11 @@ button {
     color: #f5deb3;
     margin: 0 10px;
 }
-button a {
+.heroContent button a {
     text-decoration: none;
     color: white;
 }
-button:hover {
+.heroContent button:hover {
     box-shadow: 0 4px 8px 0 #5C1E21;
     margin: 0 3px;
     transition: all .45s;
@@ -63,7 +63,7 @@ button:hover {
     text-align: center;
 }
 .heroPic img {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 @keyframes slidein {
@@ -85,5 +85,40 @@ button:hover {
     }
     100% {
       transform: translatey(0px);
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #home {
+        padding: 0;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .heroPic, .heroContent {
+        padding: 10px;
+    }
+    .heroPic img {
+        max-width: 200px;
+    }
+    .heroContent h1 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .heroContent p {
+        font-size: 10px;
+    }
+    .socialMedia img {
+        width: 24px;
+    }
+    .heroContent button {
+        width: 100px;
+        font-size: 10px;
+    }
+    .heroContent button img{
+        width: 16px;
     }
 }

@@ -8,7 +8,7 @@ export default function Home() {
             <div className='hero'>
                 <div className='heroContent'>
                     <h1> Hi, iam Meilika Dwi Putri</h1>
-                    <p>Undergraduate Informatics Engineering Student at the University of Lampung, who always expand experiences and knowledge and motivated to become a Front-End Web Developer. Excited to learn something new and always determined to finish what I start as best as possible.</p>
+                    <p>Fresh Graduate Informatics Engineering Student at the University of Lampung, who always expand experiences and knowledge and motivated to become a Front-End Web Developer. Excited to learn something new and always determined to finish what I start as best as possible.</p>
                     <div className='socialMedia'>
                         <ul>
                             <li><a href='https://github.com/Meilika' target="blank"><img src="https://img.icons8.com/ios-glyphs/40/5c1e21/github.png" alt='github-icon'/></a></li>
@@ -18,7 +18,7 @@ export default function Home() {
                         </ul>
                     </div>
                     <button>
-                        <a href='https://drive.google.com/file/d/1A4TBqPJ_6Wws-Jv8XfZgctw_P1q7QXME/view?usp=sharing' target="blank"><img src="https://img.icons8.com/material-outlined/20/f5deb3/resume.png" alt='resume-icon'/> My Resume</a>
+                        <a href='https://drive.google.com/file/d/1fyIFsWP7MT8CA4_FlIFpqXnLk9GvEmlv/view?usp=sharing' target="blank"><img src="https://img.icons8.com/material-outlined/20/f5deb3/resume.png" alt='resume-icon'/> My Resume</a>
                     </button>
                     <button>
                         <Link to="/myproject">
